@@ -4,7 +4,7 @@
 $users = [
 [
     "nama" => "si A",
-    "foto" => "https://picsum.photos/100",
+    "foto" => "https://picsum.photos/200/200",
     "bio" => "ini bio",
     "active" => true,
     "alamat" => "ini alamatnya siapa",
@@ -12,7 +12,7 @@ $users = [
 ],
 [
     "nama" => "si B",
-    "foto" => "https://picsum.photos/100",
+    "foto" => "https://picsum.photos/200/200",
     "bio" => " aaa ssd ad",
     "active" => true,
     "alamat" => "alamatnya si B",
@@ -20,7 +20,7 @@ $users = [
 ],
 [
     "nama" => "si C",
-    "foto" => "https://picsum.photos/100",
+    "foto" => "https://picsum.photos/200/200",
     "bio" => "peee baaangg, bukan p banget",
     "active" => true,
     "alamat" => "acdcdmt",
@@ -28,7 +28,7 @@ $users = [
 ],
 [
     "nama" => "si D",
-    "foto" => "https://picsum.photos/100",
+    "foto" => "https://picsum.photos/200/200",
     "bio" => "pppppp p banget",
     "active" => false,
     "alamat" => "dddd dd dddd dd",
@@ -36,7 +36,7 @@ $users = [
 ],
 [
     "nama" => "si E",
-    "foto" => "https://picsum.photos/100",
+    "foto" => "https://picsum.photos/200/200",
     "bio" => "bentar bentar",
     "active" => true,
     "alamat" => "eeeee eee eee eeeee",
@@ -44,7 +44,7 @@ $users = [
 ],
 [
     "nama" => "si F",
-    "foto" => "https://picsum.photos/100",
+    "foto" => "https://picsum.photos/200/200",
     "bio" => "tak tambahin",
     "active" => false,
     "alamat" => "aaaaaa aaaaaaa aaaaaa",
@@ -52,7 +52,7 @@ $users = [
 ],
 [
     "nama" => "si G",
-    "foto" => "https://picsum.photos/100",
+    "foto" => "https://picsum.photos/200/200",
     "bio" => "heh si bapak asdasd",
     "active" => false,
     "alamat" => "bbbb bbb bbbb",
@@ -60,7 +60,7 @@ $users = [
 ],
 [
     "nama" => "si H",
-    "foto" => "https://picsum.photos/100",
+    "foto" => "https://picsum.photos/200/200",
     "bio" => "ccccccc jangan pak ssss aaaa",
     "active" => true,
     "alamat" => "acccc cc",
@@ -68,7 +68,7 @@ $users = [
 ],
 [
     "nama" => "si I",
-    "foto" => "https://picsum.photos/100",
+    "foto" => "https://picsum.photos/200/200",
     "bio" => "ddd asdasdas asdasd",
     "active" => true,
     "alamat" => "dddd dd dddd dd",
@@ -76,7 +76,7 @@ $users = [
 ],
 [
     "nama" => "si J",
-    "foto" => "https://picsum.photos/100",
+    "foto" => "https://picsum.photos/200/200",
     "bio" => "eeeee asdasdasdasd qqqqq",
     "active" => true,
     "alamat" => "eeeee eee eee eeeee",
@@ -95,7 +95,7 @@ $filter = [
 <div class="card my-2">
     <div class="card-header">Filternya</div>
     <div class="card-body">
-        <div class="row">
+        <div class="row d-flex justify-content-center">
             @foreach ($users as $usr)
 
             {{-- ----include when---- --}}
@@ -109,4 +109,4 @@ $filter = [
 
 @endsection
 @section('title','enake opo?')
-@section('icon','https://picsum.photos/30')
+@section('icon','./img/Approve.png')
